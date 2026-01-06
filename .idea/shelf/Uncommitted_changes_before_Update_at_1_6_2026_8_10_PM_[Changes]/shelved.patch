@@ -1,0 +1,50 @@
+Index: How_to_create_Numpy_array/program_08.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/How_to_create_Numpy_array/program_08.py b/How_to_create_Numpy_array/program_08.py
+new file mode 100644
+--- /dev/null	(date 1767709761361)
++++ b/How_to_create_Numpy_array/program_08.py	(date 1767709761361)
+@@ -0,0 +1,6 @@
++# Create a numpy array using random.random() function.
++
++import numpy as np
++
++a=np.random.random((3,4))
++print(a)
+\ No newline at end of file
+Index: How_to_create_Numpy_array/program_09.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/How_to_create_Numpy_array/program_09.py b/How_to_create_Numpy_array/program_09.py
+new file mode 100644
+--- /dev/null	(date 1767710295617)
++++ b/How_to_create_Numpy_array/program_09.py	(date 1767710295617)
+@@ -0,0 +1,5 @@
++# Create Numpy array using linspace() function.
++
++import numpy as np
++a = np.linspace(-10,10,500)
++print(a)
+Index: How_to_create_Numpy_array/program_10.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/How_to_create_Numpy_array/program_10.py b/How_to_create_Numpy_array/program_10.py
+new file mode 100644
+--- /dev/null	(date 1767710308571)
++++ b/How_to_create_Numpy_array/program_10.py	(date 1767710308571)
+@@ -0,0 +1,7 @@
++# Create a NumPy array using identity() function.
++#This function create identity matrix.
++
++import numpy as np
++
++a=np.identity(3)
++print(a)
+\ No newline at end of file
