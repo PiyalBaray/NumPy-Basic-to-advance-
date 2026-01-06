@@ -1,4 +1,4 @@
-# plotting 2D Graphs
+# plotting 2D Graphs y=x**2
 import matplotlib.pyplot as plt
 import numpy as np
 
